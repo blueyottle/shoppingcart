@@ -53,8 +53,7 @@ const products = [
             "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
         imgSrc: "./img/t1.png",
     },
-
-
+    
 
 
 
