@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>my shopping cart</h2>
+    <div class="app-container">
+        <div class="app-bg">
+            <div class="left-side"></div>
+            <div class="right-side"></div>
+        </div>
+
+        <main>
+            <div class="content">
+                <div class="products-list">
+                    <div class="products">
+                        <!-- render porducts here -->
+                    </div>
+                    <div class="cart">
+                        <div class="cart-header">
+                            <div class="column1"></div>
+                            <div class="column2"></div>
+                            <div class="column3"></div>
+                        </div>
+                        <div class="cart-items">
+                            <!-- render cart items here -->
+                        </div>
+                        <div class="cart-footer">
+                            <div class="subtotal">
+                                total (0 items): Rs0
+                            </div>
+                            <div class="checkout">
+                                Proceed to checkout
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            
+        </main>
+    </div>
+    
+    <script>
+        //product list
+        const porductsListEl = document.querySelector(".products-list");
+    </script>
+
+    <script src="products.js"></script>
+    <script src="logic.js"></script>
+</body>
+</html>
